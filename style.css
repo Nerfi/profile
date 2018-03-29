@@ -1,0 +1,172 @@
+body {
+background-color: rgba(255,255,255,0.4);
+color: black;
+font-family: 'Oleo Script', cursive;
+font-size: 15px;
+line-height: 15px;
+background-color: black;
+background-image: url("images/cara.jpg");
+}
+
+h1,h2,h3{
+  color: black;
+  font-family:'Fredericka the Great', cursive;
+  font-size: 20px;
+  line-height: 13px;
+  color: white;
+}
+
+ul > li > a{
+color:black;
+text-decoration: none;
+}
+
+ul > li > a:hover{
+color:grey;
+}
+
+.container {
+    width: 500px; /* This sets the width */
+    margin: 0 auto; /* This automatically sets left/right margins and text in the middle  */
+}
+
+
+
+.list-inline > ul > li{
+  display: inline-block;
+  padding: 0px 20px;
+  font-size: 30px;
+}
+.sports {
+  margin: 20px;
+}
+
+.list-inline{
+  padding-left: 0px;
+  padding:15px;
+  margin: 20px;
+  background-color: white;
+  border-radius:10px;
+  border:2px solid;
+}
+.img-circle > img {
+  border-radius: 280px;
+  color: white;
+}
+.img-circle > p > a {
+  text-decoration:none;
+  color: white;
+}
+.img-circle > p{
+color: white;
+}
+.img-circle{
+  border:2px solid;
+  margin: 12px;
+  box-shadow:2px 4px 15px green;
+  border-radius: 50px;
+}
+.container {
+  text-align: center;
+  padding:15px;
+  font-size: 20px;
+}
+.bottom > ul > li{
+display: inline-block;
+}
+.bottom > h2{
+text-align: center;
+}
+.bottom{
+  text-align: center;
+  border:2px solid ;
+  color: white;
+}
+.bottom > p{
+font-size: 20px;
+color: white;
+}
+
+#boxeo > h3{
+  font-size: 25px;
+  text-decoration: underline;
+  color: white;
+}
+#boxeo > p{
+  line-height: 20px;
+  color: white;
+}
+#muaythai > h3{
+  font-size: 20px;
+  text-decoration: underline;
+  color: white;
+}
+#muaythai > p{
+  line-height: 20px;
+  color: white;
+}
+#taek > h3{
+  font-size: 20px;
+  text-decoration: underline;
+  color: white;
+}
+#taek > p{
+line-height: 20px;
+color: white;
+}
+#ali{
+  width: 500px;
+
+
+}
+
+#pretosian{
+  width: 500px
+
+}
+
+#tae{
+  width: 500px;
+
+}
+#juan{
+  width: 350px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
